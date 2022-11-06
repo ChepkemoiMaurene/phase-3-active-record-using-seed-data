@@ -5,7 +5,7 @@ class CreateGames < ActiveRecord::Migration[6.1]
       t.string :genre
       t.string :platform
       t.integer :price
-      t.timestamps # generates created_at and updated_at columns
+      t.timestamps 
     end
   end
 end
